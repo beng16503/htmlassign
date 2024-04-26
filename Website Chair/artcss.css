@@ -1,0 +1,188 @@
+body,
+h2,
+p,
+ul,
+li,
+form,
+button {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-content: center;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration-line: none;
+}
+
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #666;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    color: #666;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Playfair Display", serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #666;
+
+}
+
+.art1 {
+
+    padding: 10px;
+    display: flex;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    float: left;
+    width: 40%;
+    padding-right: 10px;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+}
+
+.image {
+    max-width: 25%;
+    max-height: 15%;
+    float: left;
+}
+
+.form {
+
+    width: 40px;
+    text-align: center
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fef1dc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #EC766C;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e47956;
